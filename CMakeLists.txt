@@ -6,7 +6,7 @@ project(brainfuck_compiled)
 
 include(CTest)
 
-set(SOURCES "")
+set(SOURCES src/compile.c)
 
 add_executable(main src/main.c ${SOURCES})
 
